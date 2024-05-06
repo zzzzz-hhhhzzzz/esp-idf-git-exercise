@@ -71,10 +71,13 @@ static tBTM_BLE_CTRL_FEATURES_CBACK    *p_ctrl_le_feature_rd_cmpl_cback = NULL;
 #endif
 
 tBTM_CallbackFunc conn_callback_func;
+<<<<<<< HEAD
 // BLE vendor HCI event callback
 #if (BLE_VENDOR_HCI_EN == TRUE)
 static tBTM_BLE_VENDOR_HCI_EVT_CBACK *ble_vs_evt_callback = NULL;
 #endif // #if (BLE_VENDOR_HCI_EN == TRUE)
+=======
+>>>>>>> 32ec84c6d6 (fix(ble/bluedroid): Optimize BLE stack connect callback name)
 /*******************************************************************************
 **  Local functions
 *******************************************************************************/
