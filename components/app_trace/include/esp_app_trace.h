@@ -3,6 +3,10 @@
  *
  * SPDX-License-Identifier: Apache-2.0
  */
+/*
+ * 测试
+ *
+ */
 #ifndef ESP_APP_TRACE_H_
 #define ESP_APP_TRACE_H_
 
